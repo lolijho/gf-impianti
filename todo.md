@@ -44,3 +44,7 @@
 ## Immagine Hero con Trasparenza
 
 - [x] Aggiungere immagine di sfondo nella hero section con overlay trasparente
+
+## Testi Hero Neri
+
+- [x] Cambiare colore testi hero da celestino a nero

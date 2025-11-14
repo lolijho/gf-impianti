@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-primary">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-foreground">
               Assistenza Specializzata Caldaie Vaillant a Milano
             </h2>
             <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed text-foreground">
