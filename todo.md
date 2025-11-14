@@ -11,3 +11,10 @@
 - [x] Footer con informazioni di contatto
 - [x] Design responsive e professionale
 - [x] Palette colori appropriata per settore termoidraulico
+
+## Nuove funzionalità richieste
+
+- [x] Aggiungere immagini professionali per caldaie e tecnici
+- [x] Inserire immagine hero section
+- [x] Aggiungere immagini nelle sezioni servizi
+- [x] Ottimizzare immagini per web

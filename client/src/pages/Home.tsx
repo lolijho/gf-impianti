@@ -7,17 +7,20 @@ export default function Home() {
     {
       icon: Wrench,
       title: "Riparazione",
-      description: "Interventi rapidi e professionali per risolvere qualsiasi problema alla tua caldaia Vaillant."
+      description: "Interventi rapidi e professionali per risolvere qualsiasi problema alla tua caldaia Vaillant.",
+      image: "/images/boiler-maintenance.jpg"
     },
     {
       icon: Shield,
       title: "Manutenzione",
-      description: "Controlli periodici e manutenzione programmata per garantire efficienza e sicurezza."
+      description: "Controlli periodici e manutenzione programmata per garantire efficienza e sicurezza.",
+      image: "/images/vaillant-boiler.jpg"
     },
     {
       icon: Clock,
       title: "Installazione",
-      description: "Installazione certificata di nuove caldaie Vaillant con garanzia e assistenza completa."
+      description: "Installazione certificata di nuove caldaie Vaillant con garanzia e assistenza completa.",
+      image: "/images/boiler-installation.jpg"
     }
   ];
 
@@ -66,9 +69,16 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground py-16 md:py-24">
-        <div className="container">
+      {/* Hero Section with Image */}
+      <section className="relative bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground py-16 md:py-24 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="/images/hero-technician.jpg" 
+            alt="Tecnico specializzato caldaie" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container relative z-10">
           <div className="max-w-3xl">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Assistenza Specializzata Caldaie Vaillant a Milano
@@ -94,7 +104,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Services Section with Images */}
       <section className="py-16 md:py-20 bg-background">
         <div className="container">
           <div className="text-center mb-12">
@@ -106,11 +116,19 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="border-2 hover:border-primary transition-colors duration-300 hover:shadow-lg">
-                <CardContent className="p-6">
-                  <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                    <service.icon className="w-7 h-7 text-primary" />
+              <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg overflow-hidden group">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 w-12 h-12 bg-primary/90 rounded-lg flex items-center justify-center">
+                    <service.icon className="w-6 h-6 text-primary-foreground" />
                   </div>
+                </div>
+                <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-card-foreground">{service.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{service.description}</p>
                 </CardContent>
