@@ -22,3 +22,8 @@
 ## Aggiornamento contatti
 
 - [x] Sostituire numero telefono con 800 745695 in tutte le sezioni
+
+## Aggiornamento design
+
+- [x] Cambiare palette colori con celestino chiaro che trasmette fiducia
+- [x] Aggiornare colori primary e accent
