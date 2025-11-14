@@ -27,3 +27,11 @@
 
 - [x] Cambiare palette colori con celestino chiaro che trasmette fiducia
 - [x] Aggiornare colori primary e accent
+
+## Ottimizzazione Mobile
+
+- [x] Verificare e ottimizzare layout mobile
+- [x] Migliorare spaziature e dimensioni testi su mobile
+- [x] Ottimizzare pulsanti CTA per touch
+- [x] Verificare immagini responsive
+- [x] Testare navigazione e usabilità mobile
