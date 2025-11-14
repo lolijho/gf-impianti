@@ -48,3 +48,8 @@
 ## Testi Hero Neri
 
 - [x] Cambiare colore testi hero da celestino a nero
+
+## Aggiornamento Email e Pulsante Preventivo
+
+- [x] Cambiare email da info@gfimpianti.it a srlsgfimpianti@gmail.com
+- [x] Modificare pulsante "Richiedi Preventivo" per scrollare alla sezione contatti

@@ -94,11 +94,14 @@ export default function Home() {
                   <span>Chiama Ora - 800 745695</span>
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
-                <a href="mailto:info@gfimpianti.it">
-                  <Mail className="w-5 h-5 mr-2 flex-shrink-0" />
-                  <span>Richiedi Preventivo</span>
-                </a>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="w-full sm:w-auto border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto"
+                onClick={() => document.getElementById('contatti')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                <Mail className="w-5 h-5 mr-2 flex-shrink-0" />
+                <span>Richiedi Preventivo</span>
               </Button>
             </div>
           </div>
@@ -204,9 +207,9 @@ export default function Home() {
               </a>
             </Button>
             <Button size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
-              <a href="mailto:info@gfimpianti.it">
+              <a href="mailto:srlsgfimpianti@gmail.com">
                 <Mail className="w-5 h-5 mr-2 flex-shrink-0" />
-                <span>info@gfimpianti.it</span>
+                <span>srlsgfimpianti@gmail.com</span>
               </a>
             </Button>
           </div>
@@ -224,16 +227,16 @@ export default function Home() {
               </p>
             </div>
             
-            <div>
+            <div id="contatti">
               <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Contatti</h3>
               <div className="space-y-2 sm:space-y-3">
                 <a href="tel:+39800745695" className="flex items-center gap-2 hover:opacity-80 transition-opacity text-sm sm:text-base">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
                   <span>800 745695</span>
                 </a>
-                <a href="mailto:info@gfimpianti.it" className="flex items-center gap-2 hover:opacity-80 transition-opacity text-sm sm:text-base break-all">
+                <a href="mailto:srlsgfimpianti@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity text-sm sm:text-base break-all">
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-                  <span>info@gfimpianti.it</span>
+                  <span>srlsgfimpianti@gmail.com</span>
                 </a>
                 <div className="flex items-start gap-2 text-sm sm:text-base">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 mt-0.5" />
