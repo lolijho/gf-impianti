@@ -18,3 +18,7 @@
 - [x] Inserire immagine hero section
 - [x] Aggiungere immagini nelle sezioni servizi
 - [x] Ottimizzare immagini per web
+
+## Aggiornamento contatti
+
+- [x] Sostituire numero telefono con 800 745695 in tutte le sezioni

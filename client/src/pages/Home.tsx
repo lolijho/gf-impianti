@@ -55,11 +55,11 @@ export default function Home() {
               <p className="text-sm md:text-base opacity-90">Centro Assistenza Caldaie Vaillant a Milano</p>
             </div>
             <div className="flex items-center gap-3">
-              <a href="tel:+390212345678" className="hidden sm:flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <a href="tel:+39800745695" className="hidden sm:flex items-center gap-2 hover:opacity-80 transition-opacity">
                 <Phone className="w-5 h-5" />
-                <span className="font-semibold">02 1234 5678</span>
+                <span className="font-semibold">800 745695</span>
               </a>
-              <a href="tel:+390212345678" className="sm:hidden">
+              <a href="tel:+39800745695" className="sm:hidden">
                 <Button size="sm" variant="secondary">
                   <Phone className="w-4 h-4" />
                 </Button>
@@ -88,7 +88,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" variant="secondary" className="text-lg font-semibold" asChild>
-                <a href="tel:+390212345678">
+                <a href="tel:+39800745695">
                   <Phone className="w-5 h-5 mr-2" />
                   Chiama Ora
                 </a>
@@ -197,9 +197,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="text-lg font-semibold" asChild>
-              <a href="tel:+390212345678">
+              <a href="tel:+39800745695">
                 <Phone className="w-5 h-5 mr-2" />
-                02 1234 5678
+                800 745695
               </a>
             </Button>
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg font-semibold" asChild>
@@ -226,9 +226,9 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold mb-4">Contatti</h3>
               <div className="space-y-3">
-                <a href="tel:+390212345678" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                <a href="tel:+39800745695" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                   <Phone className="w-5 h-5" />
-                  <span>02 1234 5678</span>
+                  <span>800 745695</span>
                 </a>
                 <a href="mailto:info@gfimpianti.it" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                   <Mail className="w-5 h-5" />
