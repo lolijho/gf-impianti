@@ -35,3 +35,8 @@
 - [x] Ottimizzare pulsanti CTA per touch
 - [x] Verificare immagini responsive
 - [x] Testare navigazione e usabilità mobile
+
+## Modifica Hero Section
+
+- [x] Cambiare sfondo hero da celestino a trasparente/bianco
+- [x] Cambiare colore testi da bianco a celestino

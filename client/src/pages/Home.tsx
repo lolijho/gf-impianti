@@ -70,30 +70,23 @@ export default function Home() {
       </header>
 
       {/* Hero Section - Ottimizzato per mobile */}
-      <section className="relative bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground py-12 sm:py-16 md:py-24 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <img 
-            src="/images/hero-technician.jpg" 
-            alt="Tecnico specializzato caldaie" 
-            className="w-full h-full object-cover"
-          />
-        </div>
+      <section className="relative bg-background py-12 sm:py-16 md:py-24 overflow-hidden">
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-primary">
               Assistenza Specializzata Caldaie Vaillant a Milano
             </h2>
-            <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 opacity-95 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed text-foreground">
               Riparazione, manutenzione e installazione di caldaie Vaillant. Tecnici certificati, interventi rapidi e ricambi originali garantiti.
             </p>
             <div className="flex flex-col gap-3 sm:gap-4">
-              <Button size="lg" variant="secondary" className="w-full sm:w-auto text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
+              <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
                 <a href="tel:+39800745695">
                   <Phone className="w-5 h-5 mr-2 flex-shrink-0" />
                   <span>Chiama Ora - 800 745695</span>
                 </a>
               </Button>
-              <Button size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base sm:text-lg font-semibold h-12 sm:h-auto" asChild>
                 <a href="mailto:info@gfimpianti.it">
                   <Mail className="w-5 h-5 mr-2 flex-shrink-0" />
                   <span>Richiedi Preventivo</span>
