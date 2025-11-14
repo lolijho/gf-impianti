@@ -71,6 +71,14 @@ export default function Home() {
 
       {/* Hero Section - Ottimizzato per mobile */}
       <section className="relative bg-background py-12 sm:py-16 md:py-24 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/hero-technician.jpg" 
+            alt="Tecnico specializzato caldaie" 
+            className="w-full h-full object-cover opacity-15"
+          />
+        </div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-primary">

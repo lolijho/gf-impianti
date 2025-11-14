@@ -40,3 +40,7 @@
 
 - [x] Cambiare sfondo hero da celestino a trasparente/bianco
 - [x] Cambiare colore testi da bianco a celestino
+
+## Immagine Hero con Trasparenza
+
+- [x] Aggiungere immagine di sfondo nella hero section con overlay trasparente
