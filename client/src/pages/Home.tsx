@@ -14,7 +14,7 @@ export default function Home() {
       icon: Shield,
       title: "Manutenzione",
       description: "Controlli periodici e manutenzione programmata per garantire efficienza e sicurezza.",
-      image: "/images/vaillant-boiler.jpg"
+      image: "/images/maintenance-tech.jpg"
     },
     {
       icon: Clock,

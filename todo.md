@@ -53,3 +53,8 @@
 
 - [x] Cambiare email da info@gfimpianti.it a srlsgfimpianti@gmail.com
 - [x] Modificare pulsante "Richiedi Preventivo" per scrollare alla sezione contatti
+
+## Sostituzione Immagine Manutenzione
+
+- [x] Cercare nuova immagine per sezione Manutenzione senza riferimenti "centro ufficiale"
+- [x] Sostituire immagine vaillant-boiler.jpg
