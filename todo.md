@@ -58,3 +58,9 @@
 
 - [x] Cercare nuova immagine per sezione Manutenzione senza riferimenti "centro ufficiale"
 - [x] Sostituire immagine vaillant-boiler.jpg
+
+## Pubblicazione GitHub
+
+- [ ] Inizializzare repository Git
+- [ ] Creare repository su GitHub
+- [ ] Push del codice su GitHub
